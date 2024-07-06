@@ -1,0 +1,342 @@
+2024-07-06T15:25:04.600+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] c.e.w.WebBanMyPhamApplication            : Starting WebBanMyPhamApplication using Java 21 with PID 20652 (D:\Project\Project4\WebBanMyPham\WebBanMyPham\target\classes started by Admin in D:\Project\Project4\WebBanMyPham\WebBanMyPham)
+2024-07-06T15:25:04.618+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] c.e.w.WebBanMyPhamApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-07-06T15:25:04.676+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06T15:25:04.676+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06T15:25:05.660+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-06T15:25:05.662+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-07-06T15:25:05.719+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.webbanmypham.repository.CategoryRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-07-06T15:25:05.722+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.webbanmypham.repository.ProductRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-07-06T15:25:05.725+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.webbanmypham.repository.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-07-06T15:25:05.726+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 0 JDBC repository interfaces.
+2024-07-06T15:25:05.746+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-06T15:25:05.749+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-06T15:25:06.036+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 281 ms. Found 3 JPA repository interfaces.
+2024-07-06T15:25:06.516+07:00  WARN 20652 --- [WebBanMyPham] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-07-06T15:25:06.644+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-07-06T15:25:07.104+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 2003 (http)
+2024-07-06T15:25:07.118+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-06T15:25:07.118+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06T15:25:07.177+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-06T15:25:07.178+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2501 ms
+2024-07-06T15:25:07.427+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-06T15:25:07.538+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-06T15:25:07.602+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-06T15:25:08.038+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-06T15:25:08.080+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-06T15:25:08.697+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 22c5e695-e66f-410b-8ca9-62149b2961f3
+2024-07-06T15:25:08.699+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-06T15:25:08.746+07:00  WARN 20652 --- [WebBanMyPham] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServer2012Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-06T15:25:08.748+07:00  WARN 20652 --- [WebBanMyPham] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: SQLServer2012Dialect has been deprecated; use org.hibernate.dialect.SQLServerDialect instead
+2024-07-06T15:25:09.881+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-06T15:25:09.885+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-06T15:25:09.904+07:00  WARN 20652 --- [WebBanMyPham] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartController': Unsatisfied dependency expressed through field 'cartService': No qualifying bean of type 'com.example.webbanmypham.service.CartService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-07-06T15:25:09.904+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-06T15:25:09.908+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-06T15:25:09.911+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-06T15:25:09.913+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-07-06T15:25:09.931+07:00  INFO 20652 --- [WebBanMyPham] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-06T15:25:09.960+07:00 ERROR 20652 --- [WebBanMyPham] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field cartService in com.example.webbanmypham.controller.admin.CartController required a bean of type 'com.example.webbanmypham.service.CartService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.webbanmypham.service.CartService' in your configuration.
+
+2024-07-06T15:29:15.815+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] c.e.w.WebBanMyPhamApplication            : Starting WebBanMyPhamApplication using Java 21 with PID 28820 (D:\Project\Project4\WebBanMyPham\WebBanMyPham\target\classes started by Admin in D:\Project\Project4\WebBanMyPham\WebBanMyPham)
+2024-07-06T15:29:15.818+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] c.e.w.WebBanMyPhamApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-07-06T15:29:15.880+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06T15:29:15.880+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06T15:29:16.665+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-06T15:29:16.666+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-07-06T15:29:16.700+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.webbanmypham.repository.CategoryRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-07-06T15:29:16.707+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.webbanmypham.repository.ProductRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-07-06T15:29:16.709+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.webbanmypham.repository.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-07-06T15:29:16.710+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 0 JDBC repository interfaces.
+2024-07-06T15:29:16.721+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-06T15:29:16.723+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-06T15:29:16.819+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 3 JPA repository interfaces.
+2024-07-06T15:29:17.161+07:00  WARN 28820 --- [WebBanMyPham] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-07-06T15:29:17.195+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-07-06T15:29:17.479+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 2003 (http)
+2024-07-06T15:29:17.491+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-06T15:29:17.492+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06T15:29:17.538+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-06T15:29:17.538+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1656 ms
+2024-07-06T15:29:17.706+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-06T15:29:17.753+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-06T15:29:17.773+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-06T15:29:17.979+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-06T15:29:17.999+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-06T15:29:18.257+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 29303bb4-7e18-4eae-a37b-34a5814ea892
+2024-07-06T15:29:18.259+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-06T15:29:18.278+07:00  WARN 28820 --- [WebBanMyPham] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServer2012Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-06T15:29:18.279+07:00  WARN 28820 --- [WebBanMyPham] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: SQLServer2012Dialect has been deprecated; use org.hibernate.dialect.SQLServerDialect instead
+2024-07-06T15:29:19.298+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-06T15:29:19.301+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-06T15:29:19.328+07:00  WARN 28820 --- [WebBanMyPham] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartController': Unsatisfied dependency expressed through field 'cartService': No qualifying bean of type 'com.example.webbanmypham.service.CartService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-07-06T15:29:19.329+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-06T15:29:19.332+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-06T15:29:19.337+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-06T15:29:19.341+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-07-06T15:29:19.358+07:00  INFO 28820 --- [WebBanMyPham] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-06T15:29:19.382+07:00 ERROR 28820 --- [WebBanMyPham] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field cartService in com.example.webbanmypham.controller.admin.CartController required a bean of type 'com.example.webbanmypham.service.CartService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.webbanmypham.service.CartService' in your configuration.
+
+2024-07-06T15:31:01.927+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] c.e.w.WebBanMyPhamApplication            : Starting WebBanMyPhamApplication using Java 21 with PID 29424 (D:\Project\Project4\WebBanMyPham\WebBanMyPham\target\classes started by Admin in D:\Project\Project4\WebBanMyPham\WebBanMyPham)
+2024-07-06T15:31:01.929+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] c.e.w.WebBanMyPhamApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-07-06T15:31:01.990+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06T15:31:01.990+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06T15:31:02.691+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-06T15:31:02.692+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-07-06T15:31:02.737+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.webbanmypham.repository.CategoryRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-07-06T15:31:02.739+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.webbanmypham.repository.ProductRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-07-06T15:31:02.741+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.webbanmypham.repository.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-07-06T15:31:02.744+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 0 JDBC repository interfaces.
+2024-07-06T15:31:02.758+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-06T15:31:02.758+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-06T15:31:02.854+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 3 JPA repository interfaces.
+2024-07-06T15:31:03.183+07:00  WARN 29424 --- [WebBanMyPham] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-07-06T15:31:03.211+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-07-06T15:31:03.492+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 2003 (http)
+2024-07-06T15:31:03.504+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-06T15:31:03.505+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06T15:31:03.559+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-06T15:31:03.559+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1568 ms
+2024-07-06T15:31:03.712+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-06T15:31:03.772+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-06T15:31:03.791+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-06T15:31:04.016+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-06T15:31:04.032+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-06T15:31:04.296+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: e1431981-0968-4985-aecb-ac746096c5ec
+2024-07-06T15:31:04.298+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-06T15:31:04.316+07:00  WARN 29424 --- [WebBanMyPham] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServer2012Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-06T15:31:04.317+07:00  WARN 29424 --- [WebBanMyPham] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: SQLServer2012Dialect has been deprecated; use org.hibernate.dialect.SQLServerDialect instead
+2024-07-06T15:31:05.276+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-06T15:31:05.279+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-06T15:31:05.292+07:00  WARN 29424 --- [WebBanMyPham] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartController': Unsatisfied dependency expressed through field 'cartService': No qualifying bean of type 'com.example.webbanmypham.service.CartService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-07-06T15:31:05.293+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-06T15:31:05.303+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-06T15:31:05.307+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-06T15:31:05.309+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-07-06T15:31:05.321+07:00  INFO 29424 --- [WebBanMyPham] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-06T15:31:05.338+07:00 ERROR 29424 --- [WebBanMyPham] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field cartService in com.example.webbanmypham.controller.admin.CartController required a bean of type 'com.example.webbanmypham.service.CartService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.webbanmypham.service.CartService' in your configuration.
+
+2024-07-06T15:33:44.093+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] c.e.w.WebBanMyPhamApplication            : Starting WebBanMyPhamApplication using Java 21 with PID 11884 (D:\Project\Project4\WebBanMyPham\WebBanMyPham\target\classes started by Admin in D:\Project\Project4\WebBanMyPham\WebBanMyPham)
+2024-07-06T15:33:44.096+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] c.e.w.WebBanMyPhamApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-07-06T15:33:44.147+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06T15:33:44.147+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06T15:33:45.005+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-06T15:33:45.006+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-07-06T15:33:45.056+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.webbanmypham.repository.CategoryRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-07-06T15:33:45.057+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.webbanmypham.repository.ProductRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-07-06T15:33:45.059+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.webbanmypham.repository.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-07-06T15:33:45.061+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 0 JDBC repository interfaces.
+2024-07-06T15:33:45.073+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-06T15:33:45.074+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-06T15:33:45.224+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 148 ms. Found 3 JPA repository interfaces.
+2024-07-06T15:33:45.555+07:00  WARN 11884 --- [WebBanMyPham] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-07-06T15:33:45.630+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-07-06T15:33:46.076+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-06T15:33:46.090+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-06T15:33:46.091+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06T15:33:46.158+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-06T15:33:46.158+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2011 ms
+2024-07-06T15:33:46.430+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-06T15:33:46.549+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-06T15:33:46.607+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-06T15:33:47.042+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-06T15:33:47.089+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-06T15:33:47.603+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 19ceb7f5-f07a-4022-846d-ac127aec68e1
+2024-07-06T15:33:47.605+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-06T15:33:47.656+07:00  WARN 11884 --- [WebBanMyPham] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServer2012Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-06T15:33:47.657+07:00  WARN 11884 --- [WebBanMyPham] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: SQLServer2012Dialect has been deprecated; use org.hibernate.dialect.SQLServerDialect instead
+2024-07-06T15:33:48.875+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-06T15:33:48.877+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-06T15:33:48.893+07:00  WARN 11884 --- [WebBanMyPham] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartController': Unsatisfied dependency expressed through field 'cartService': No qualifying bean of type 'com.example.webbanmypham.service.CartService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-07-06T15:33:48.894+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-06T15:33:48.904+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-06T15:33:48.908+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-06T15:33:48.910+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-07-06T15:33:48.925+07:00  INFO 11884 --- [WebBanMyPham] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-06T15:33:48.961+07:00 ERROR 11884 --- [WebBanMyPham] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field cartService in com.example.webbanmypham.controller.admin.CartController required a bean of type 'com.example.webbanmypham.service.CartService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.webbanmypham.service.CartService' in your configuration.
+
+2024-07-06T15:35:30.551+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] c.e.w.WebBanMyPhamApplication            : Starting WebBanMyPhamApplication using Java 21 with PID 42524 (D:\Project\Project4\WebBanMyPham\WebBanMyPham\target\classes started by Admin in D:\Project\Project4\WebBanMyPham\WebBanMyPham)
+2024-07-06T15:35:30.554+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] c.e.w.WebBanMyPhamApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-07-06T15:35:30.616+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06T15:35:30.616+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06T15:35:31.352+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-06T15:35:31.353+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-07-06T15:35:31.386+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.webbanmypham.repository.CategoryRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-07-06T15:35:31.387+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.webbanmypham.repository.ProductRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-07-06T15:35:31.389+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.webbanmypham.repository.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-07-06T15:35:31.390+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 0 JDBC repository interfaces.
+2024-07-06T15:35:31.405+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-06T15:35:31.406+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-06T15:35:31.512+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103 ms. Found 3 JPA repository interfaces.
+2024-07-06T15:35:31.843+07:00  WARN 42524 --- [WebBanMyPham] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-07-06T15:35:31.874+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-07-06T15:35:32.175+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 2003 (http)
+2024-07-06T15:35:32.183+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-06T15:35:32.184+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06T15:35:32.224+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-06T15:35:32.224+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1607 ms
+2024-07-06T15:35:32.374+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-06T15:35:32.438+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-06T15:35:32.459+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-06T15:35:32.664+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-06T15:35:32.682+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-06T15:35:32.954+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 1d5f926c-6f4f-47db-8d54-f97bb5f6bc9b
+2024-07-06T15:35:32.956+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-06T15:35:32.976+07:00  WARN 42524 --- [WebBanMyPham] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServer2012Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-06T15:35:32.977+07:00  WARN 42524 --- [WebBanMyPham] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: SQLServer2012Dialect has been deprecated; use org.hibernate.dialect.SQLServerDialect instead
+2024-07-06T15:35:33.803+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-06T15:35:33.806+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-06T15:35:33.825+07:00  WARN 42524 --- [WebBanMyPham] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartController': Unsatisfied dependency expressed through field 'cartService': No qualifying bean of type 'com.example.webbanmypham.service.CartService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-07-06T15:35:33.825+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-06T15:35:33.838+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-06T15:35:33.841+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-06T15:35:33.843+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-07-06T15:35:33.856+07:00  INFO 42524 --- [WebBanMyPham] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-06T15:35:33.879+07:00 ERROR 42524 --- [WebBanMyPham] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field cartService in com.example.webbanmypham.controller.admin.CartController required a bean of type 'com.example.webbanmypham.service.CartService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.webbanmypham.service.CartService' in your configuration.
+
+2024-07-06T16:05:47.605+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] c.e.w.WebBanMyPhamApplication            : Starting WebBanMyPhamApplication using Java 21 with PID 41760 (D:\Project\Project4\WebBanMyPham\WebBanMyPham\target\classes started by Admin in D:\Project\Project4\WebBanMyPham\WebBanMyPham)
+2024-07-06T16:05:47.615+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] c.e.w.WebBanMyPhamApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-07-06T16:05:47.851+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06T16:05:47.852+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06T16:05:51.335+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-06T16:05:51.339+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-07-06T16:05:51.496+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.webbanmypham.repository.CategoryRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-07-06T16:05:51.502+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.webbanmypham.repository.ProductRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-07-06T16:05:51.508+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.webbanmypham.repository.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-07-06T16:05:51.512+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 155 ms. Found 0 JDBC repository interfaces.
+2024-07-06T16:05:51.571+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-06T16:05:51.576+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-06T16:05:52.244+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 653 ms. Found 3 JPA repository interfaces.
+2024-07-06T16:05:53.708+07:00  WARN 41760 --- [WebBanMyPham] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-07-06T16:05:53.974+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-07-06T16:05:55.507+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 2003 (http)
+2024-07-06T16:05:55.566+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-06T16:05:55.567+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-06T16:05:55.776+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-06T16:05:55.776+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7921 ms
+2024-07-06T16:05:56.552+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-06T16:05:56.898+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-06T16:05:57.050+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-06T16:05:58.410+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-06T16:05:58.557+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-06T16:06:00.170+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: bc04bc60-26b6-451a-8508-ce06a7540272
+2024-07-06T16:06:00.179+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-06T16:06:00.357+07:00  WARN 41760 --- [WebBanMyPham] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServer2012Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-06T16:06:00.362+07:00  WARN 41760 --- [WebBanMyPham] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: SQLServer2012Dialect has been deprecated; use org.hibernate.dialect.SQLServerDialect instead
+2024-07-06T16:06:05.546+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-06T16:06:05.574+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-06T16:06:05.722+07:00  WARN 41760 --- [WebBanMyPham] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartController': Unsatisfied dependency expressed through field 'cartService': No qualifying bean of type 'com.example.webbanmypham.service.CartService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-07-06T16:06:05.725+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-06T16:06:05.755+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-06T16:06:05.773+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-06T16:06:05.784+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-07-06T16:06:05.881+07:00  INFO 41760 --- [WebBanMyPham] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-06T16:06:06.076+07:00 ERROR 41760 --- [WebBanMyPham] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field cartService in com.example.webbanmypham.controller.admin.CartController required a bean of type 'com.example.webbanmypham.service.CartService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.webbanmypham.service.CartService' in your configuration.
+

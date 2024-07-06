@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- https://cocoshop.vn/ -->
+<!-- http://mauweb.monamedia.net/vanihome/ -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Mỹ Phẩm</title>
+    <!-- Font roboto -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Icon fontanwesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Reset css & grid sytem -->
+    <link rel="stylesheet" href="./assets/css/library.css">
+    <!-- Owl Slider css -->
+    <link rel="stylesheet" href="assets/owlCarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlCarousel/assets/owl.theme.default.min.css">
+    <!-- Layout -->
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <!-- index -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/new.css">
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Owl caroucel Js-->
+    <script src="assets/owlCarousel/owl.carousel.min.js"></script>
+</head>
+
+<body>
+    <div class="header scrolling" id="myHeader">
+        <div class="grid wide">
+            <div class="header__top">
+                <div class="navbar-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <a href="index.html" class="header__logo">
+                    <img src="./assets/logo.png" alt="">
+                </a>
+                <div class="header__search">
+                    <div class="header__search-wrap">
+                        <input type="text" class="header__search-input" placeholder="Tìm kiếm">
+                        <a class="header__search-icon" href="#">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="header__account">
+                    <a href="#my-Login" class="header__account-login">Đăng Nhập</a>
+                    <a href="#my-Register" class="header__account-register">Đăng Kí</a>
+                </div>
+                <!-- Cart -->
+                <div class="header__cart have" href="#">
+                    <i class="fas fa-shopping-basket"></i>
+                    <div class="header__cart-amount">
+                        3
+                    </div>
+                    <div class="header__cart-wrap">
+                        <ul class="order__list">
+                            <li class="item-order">
+                                <div class="order-wrap">
+                                    <a href="product.html" class="order-img">
+                                        <img src="./assets/img/product/product1.jpg" alt="">
+                                    </a>
+                                    <div class="order-main">
+                                        <a href="product.html" class="order-main-name">Áo sơ mi  caro kèm belt caro kèm belt Áo sơ mi caro kèm belt</a>
+                                        <div class="order-main-price">2 x 45,000 ₫</div>
+                                    </div>
+                                    <a href="#" class="order-close"><i class="far fa-times-circle"></i></a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="total-money">Tổng cộng: 120.000đ</div>
+                        <a href="cart.html" class="btn btn--default cart-btn">Xem giỏ hàng</a>
+                        <a href="checkout.html" class="btn btn--default cart-btn orange">Thanh toán</a>
+                        <!-- norcart -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu -->
+        <div class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item nav__search">
+                    <div class="nav__search-wrap">
+                        <input class="nav__search-input" type="text" name="" id="" placeholder="Tìm sản phẩm...">
+                    </div>
+                    <div class="nav__search-btn">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </li>
+                <li class="header__nav-item authen-form">
+                    <a href="#" class="header__nav-link">Tài Khoản</a>
+                    <ul class="sub-nav">
+                        <li class="sub-nav__item">
+                            <a href="#my-Login" class="sub-nav__link">Đăng Nhập</a>
+                        </li>
+                        <li class="sub-nav__item">
+                            <a href="#my-Register" class="sub-nav__link">Đăng Kí</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header__nav-item index">
+                    <a href="index.html" class="header__nav-link">Trang chủ</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="about.html" class="header__nav-link">Giới Thiệu</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#" class="header__nav-link">Sản Phẩm</a>
+                    <div class="sub-nav-wrap grid wide">
+                        <ul class="sub-nav">
+                            <li class="sub-nav__item">
+                                <a href="product.html" class="sub-nav__link">Chăm sóc toàn thân vvv</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="product.html" class="sub-nav__link">Khuyến mãi</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="product.html" class="sub-nav__link">Chăm sóc cơ thể</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="product.html" class="sub-nav__link">Nước hoa</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="product.html" class="sub-nav__link">Chăm sóc miệng</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="header__nav-item">
+                    <a href="news.html" class="header__nav-link">Tin Tức</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="contact.html" class="header__nav-link">Liên Hệ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="grid wide">
+            <div class="main__taskbar">
+                <div class="main__breadcrumb">
+                    <div class="breadcrumb__item">
+                        <a href="index.html" class="breadcrumb__link">Trang chủ</a>
+                    </div>
+                    <div class="breadcrumb__item">
+                        <a href="#" class="breadcrumb__link">Danh sách tin tức</a>
+                    </div>
+                </div>
+            </div>
+            <div class="list-new">
+                <div href="#" class="new-item">
+                    <a href="#" class="new-item__img">
+                        <img src="https://bizweb.dktcdn.net/100/327/295/files/thanh-phan-trong-my-pham-orchard.jpg?v=1612600345915" alt="">
+                    </a>
+                    <div class="new-item__body">
+                        <a href="#" class="new-item__title">
+                            "Nghiên cứu mới cho thấy nhiều sản phẩm mỹ phẩm chứa thành phần gây hại cho da."
+                       </a>
+                        <p class="new-item__time"> Ngày đăng: 27/5/2020</p>
+                        <p class="new-item__description">Nghiên cứu về các thành phần gây hại trong mỹ phẩm là một vấn đề nổi bật trong ngành công nghiệp này. Các thành phần như paraben, sulfate, và phthalates thường được sử dụng để gia tăng tuổi thọ và tính chất bảo quản của sản phẩm, nhưng lại có khả năng gây kích ứng da hoặc dị ứng. Các nghiên cứu khoa học liên tục đưa ra những phát hiện mới về tác động của các hóa chất này đối với sức khỏe con người, dẫn đến sự quan ngại từ phía người tiêu dùng và các nhà sản xuất. Việc cân nhắc và chọn lựa các thành phần an toàn và hiệu quả là một thách thức lớn đối với các công ty mỹ phẩm, đặc biệt là trong bối cảnh nhu cầu người tiêu dùng ngày càng tăng về sản phẩm tự nhiên và hữu cơ.</p>
+                        <a href="#" class="btn btn--default">Xem thêm</a>
+                    </div>
+                </div>
+                <div href="#" class="new-item">
+                    <a href="#" class="new-item__img">
+                        <img src="https://file.hstatic.net/200000844521/file/3_fa892b9b50834c4991106c856aec172b_grande.png" alt="">
+                    </a>
+                    <div class="new-item__body">
+                        <a href="#" class="new-item__title">
+                            "Công ty mỹ phẩm X ra mắt dòng sản phẩm mới giúp làm sáng da trong 7 ngày."
+                       </a>
+                        <p class="new-item__time"> Ngày đăng: 27/5/2020</p>
+                        <p class="new-item__description">Mỗi khi một công ty mỹ phẩm ra mắt dòng sản phẩm mới, điều quan trọng nhất là cam kết về hiệu quả và an toàn của sản phẩm này. Công ty thường tiến hành nghiên cứu sâu rộng và thử nghiệm lâm sàng để đảm bảo tính an toàn và đáp ứng các tiêu chuẩn quốc tế. Quảng cáo mạnh mẽ và chiến lược marketing thông minh thường được sử dụng để thu hút sự chú ý của người tiêu dùng, đặc biệt là trên các nền tảng truyền thông xã hội nổi tiếng. Đánh giá từ các chuyên gia làm đẹp và phản hồi từ phía người dùng là yếu tố quyết định thành công của một dòng sản phẩm mới trên thị trường.</p>
+                        <a href="#" class="btn btn--default">Xem thêm</a>
+                    </div>
+                </div>
+                <div href="#" class="new-item">
+                    <a href="#" class="new-item__img">
+                        <img src="https://file.vnua.edu.vn/data/17/images/2022/10/24/btvqldd/a1.jpg?w=680" alt="">
+                    </a>
+                    <div class="new-item__body">
+                        <a href="#" class="new-item__title">
+                            "Người tiêu dùng phản ánh về sự tăng giá đáng kể của các sản phẩm mỹ phẩm phổ biến."
+                       </a>
+                        <p class="new-item__time"> Ngày đăng: 27/5/2020</p>
+                        <p class="new-item__description">Sự thay đổi giá cả trong ngành mỹ phẩm thường phản ánh các yếu tố kinh tế, sản xuất và tiêu thụ. Những điều kiện này có thể bao gồm chi phí nguyên liệu, chiến lược tiếp thị và thậm chí là sự tăng trưởng kinh tế chung của một quốc gia hoặc khu vực. Người tiêu dùng thường phản ứng mạnh mẽ khi sản phẩm yêu thích của họ tăng giá, đặc biệt là trong bối cảnh khó khăn kinh tế toàn cầu và áp lực chi tiêu gia tăng. Các công ty mỹ phẩm thường phải cân nhắc kỹ lưỡng để duy trì sự cạnh tranh và lòng tin từ phía người tiêu dùng trong thị trường cạnh tranh khốc liệt này.</p>
+                        <a href="#" class="btn btn--default">Xem thêm</a>
+                    </div>
+                </div>
+                <div href="#" class="new-item">
+                    <a href="#" class="new-item__img">
+                        <img src="https://chiaki.vn/upload/news/2022/07/top-12-san-pham-peel-da-tot-nhat-hien-nay-new-2022-29072022120105.jpg" alt="">
+                    </a>
+                    <div class="new-item__body">
+                        <a href="#" class="new-item__title">
+                            "Tin đồn về sản phẩm làm trắng da không an toàn gây bão trên mạng xã hội."
+                       </a>
+                        <p class="new-item__time"> Ngày đăng: 27/5/2020</p>
+                        <p class="new-item__description">Tin đồn về các sản phẩm làm trắng da không an toàn thường gây hoang mang lớn trong cộng đồng người tiêu dùng. Các tin đồn này thường lan truyền nhanh chóng qua các nền tảng truyền thông xã hội và có thể dẫn đến các phản ứng dữ dội từ phía công chúng. Các cơ quan chức năng và các tổ chức bảo vệ người tiêu dùng thường phải can thiệp để kiểm tra và đánh giá sự an toàn của các sản phẩm này. Các công ty mỹ phẩm cũng cần phải nâng cao năng lực giám sát chất lượng sản phẩm và tăng cường thông tin cho người tiêu dùng về các thành phần có trong sản phẩm.</p>
+                        <a href="#" class="btn btn--default">Xem thêm</a>
+                    </div>
+                </div>
+                <div href="#" class="new-item">
+                    <a href="#" class="new-item__img">
+                        <img src="https://cdn.thuvienphapluat.vn/uploads/Hoidapphapluat/2023/NVLT/02032023/ban-my-pham-gia.jpg" alt="">
+                    </a>
+                    <div class="new-item__body">
+                        <a href="#" class="new-item__title">
+                            "Bộ Y tế phát hiện nhiều sản phẩm mỹ phẩm giả, không rõ nguồn gốc xuất xứ."
+                       </a>
+                        <p class="new-item__time"> Ngày đăng: 27/5/2020</p>
+                        <p class="new-item__description">Vấn đề sản phẩm mỹ phẩm giả đặt ra các thách thức lớn đối với các cơ quan quản lý và ngành công nghiệp. Các sản phẩm mỹ phẩm giả thường không đảm bảo chất lượng và an toàn, có thể gây hại cho sức khỏe người sử dụng. Việc xử lý và ngăn chặn sản phẩm giả đòi hỏi sự hợp tác giữa các cơ quan chức năng, ngành công nghiệp và cộng đồng người tiêu dùng. Các công ty mỹ phẩm thường phải đầu tư nhiều vào công nghệ và hệ thống kiểm tra để ngăn chặn sự xuất hiện của các sản phẩm giả trên thị trường.</p>
+                        <a href="#" class="btn btn--default">Xem thêm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3 m-6 s-12">
+                        <h3 class="footer__title">Menu</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="product.html" class="footer__link">Trang điểm</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="product.html" class="footer__link">Chăm sóc da</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="product.html" class="footer__link">Chăm sóc tóc</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="product.html" class="footer__link">Nước hoa</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="product.html" class="footer__link">Chăm sóc toàn thân </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 m-6 s-12">
+                        <h3 class="footer__title">Hỗ trợ khách hàng</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Hướng dẫn mua hàng</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Giải đáp thắc mắc</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Chính sách mua hàng</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Chính sách đổi trả</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 m-6 s-12">
+                        <h3 class="footer__title">Liên hệ</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <span class="footer__text">
+                                    <i class="fas fa-map-marked-alt"></i> 05 C2 Ngõ 36, Lê Trọng Tấn, Hà Đông, Hà Nội
+                                </span>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">
+                                    <i class="fas fa-phone"></i> 025 307 2320
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">
+                                    <i class="fas fa-envelope"></i> beautyMona123@gmail.com
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <div class="social-group">
+                                    <a href="#" class="social-item"><i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#" class="social-item"><i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#" class="social-item"><i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                    <a href="#" class="social-item"><i class="fab fa-invision"></i>
+                                    </a>
+                                    <a href="#" class="social-item"><i class="fab fa-youtube"></i>  
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 m-6 s-12">
+                        <h3 class="footer__title">Đăng kí</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <span class="footer__text">Đăng ký để nhận được được thông tin ưu đãi mới nhất từ chúng tôi.</span>
+                            </li>
+                            <li class="footer__item">
+                                <div class="send-email">
+                                    <input class="send-email__input" type="email" placeholder="Nhập Email...">
+                                    <a href="#" class="send-email__link">
+                                        <i class="fas fa-paper-plane"></i>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <span class="footer__text"> &copy Bản quyền thuộc về <a class="footer__link" href="#"> beautyMona</a></span>
+            </div>
+        </div>
+        <!-- Modal Form -->
+        <div class="ModalForm">
+            <div class="modal" id="my-Register">
+                <a href="#" class="overlay-close"></a>
+                <div class="authen-modal register">
+                    <h3 class="authen-modal__title">Đăng Kí</h3>
+                    <div class="form-group">
+                        <label for="account" class="form-label">Họ Tên</label>
+                        <input id="account" name="account" type="text" class="form-control">
+                        <span class="form-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="form-label">Tài khoản Email </label>
+                        <input id="password" name="password" type="text" class="form-control">
+                        <span class="form-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="form-label">Mật khẩu </label>
+                        <input id="password" name="password" type="text" class="form-control">
+                        <span class="form-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="form-label">Nhập lại mật khẩu </label>
+                        <input id="password" name="password" type="text" class="form-control">
+                        <span class="form-message"></span>
+                    </div>
+                    <div class="authen__btns">
+                        <div class="btn btn--default">Đăng Kí</div>
+                    </div>
+                </div>
+            </div>
+            <div class=" modal" id="my-Login">
+                <a href="#" class="overlay-close"></a>
+                <div class="authen-modal login">
+                    <h3 class="authen-modal__title">Đăng Nhập</h3>
+                    <div class="form-group">
+                        <label for="account" class="form-label">Địa chỉ email </label>
+                        <input id="account" name="account" type="text" class="form-control">
+                        <span class="form-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="form-label">Mật khẩu </label>
+                        <input id="password" name="password" type="text" class="form-control">
+                        <span class="form-message"></span>
+                    </div>
+                    <div class="authen__btns">
+                        <div class="btn btn--default">Đăng Nhập</div>
+                        <input type="checkbox" class="authen-checkbox">
+                        <label class="form-label">Ghi nhớ mật khẩu</label>
+                    </div>
+                    <a class="authen__link">Quên mật khẩu ?</a>
+                </div>
+            </div>
+            <div class="up-top" id="upTop" onclick="goToTop()">
+                <i class="fas fa-chevron-up"></i>
+            </div>
+
+        </div>
+        <!-- Sccipt for owl caroucel -->
+
+        <!-- Script common -->
+        <script src="./assets/js/commonscript.js"></script>
+
+
+</body>
+
+</html>
